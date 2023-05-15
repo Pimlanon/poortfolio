@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    min-width:1281px;
+    font-family: 'Short Stack', cursive;
+    ;
+  }
+
+  nav {
+    width: 100%;
+    height: 70px;
+    background-color: #49454C;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    overflow: hidden;
+  }
+
+  .intro {
+    padding-bottom: 10rem;
+  }
+
+  .firsicontainer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 10%;
+  }
+
+  .c-container {
+    width: 30em;
+    height: 30em;
+    position: relative;
+    left: 7%;
+    /* border: 1px solid #703c98; */
+  }
+
+  #intro-frame {
+    width: 25em;
+    height: 25em;
+    position: absolute;
+    left: 8%;
+    top: 8%;
+  }
+
+  #intro-camera {
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    bottom: 1%;
+    left: 42%;
+  }
+
+  #intro-notebook {
+    width: 7em;
+    height: 5em;
+    position: absolute;
+    bottom: 17%;
+    left: 0%;
+  }
+
+  #intro-earphone {
+    width: 7em;
+    height: 5em;
+    position: absolute;
+    top: 27%;
+    left: 0%;
+  }
+
+  #intro-book {
+    width: 7em;
+    height: 5em;
+    position: absolute;
+    top: 0%;
+    left: 43.5%;
+  }
+
+  #intro-phone {
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: 40%;
+    right: 0%;
+  }
+
+  #intro-light {
+    width: 3em;
+    height: 5em;
+    position: absolute;
+    bottom: 8%;
+    right: 2%;
+  }
+
+  /* -------- intro text --------- */
+  .intro-text {
+    /* border: 1px solid #703c98; */
+    width: 40em;
+    height: 15em;
+    position: absolute;
+    top: 10%;
+    margin-left: 49%;
+  }
+
+  .intro-text .text {
+    color: #49454C;
+  }
+
+  
+  #intro1, #intro2 {
+    font-size: 250%;
+    margin-top: 0%;
+  }
+  
+  #intro3 {
+    font-size: 150%;
+    margin-top: 5%;
+  }
+  
+  .tell-address {
+    /* border: 1px solid #703c98; */
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 130%;
+  }
+  
+  /* ---------- link ----------- */
+  .link {
+    /* border: 1px solid #703c98; */
+    width: 40em;
+    height: 6em;
+    position: relative;
+    margin-top: -9%;
+    left: 49%;
+  }
+
+  .link ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  .link li {
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .link a {
+    text-decoration: none;
+  }
+
+#cv {
+  width: 3em;
+  height: 4em;
+}
+
+#gmail, #linkedin, #github {
+  width: 4em;
+  height: 4em;
+}
+
+/* ----------- about me ----------- */
+.aboutme {
+  /* border: 1px solid #703c98; */
+  width: 100%;
+  height: 23em;
+  position: relative;
+  margin-top: 10%;
+}
+
+#n-4 {
+  width: 23em;
+  height: 23em;
+  position: absolute;
+  left: 14%;
+}
+
+.white-box {
+  width: 25em;
+  height: 23em;
+  position: absolute;
+  left: 13%;
+  background-color: #ffff;
+  z-index: -1;
+}
+
+.green-box {
+  width: 100%;
+  height: 16em;
+  background-color: #DEECE5;
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.aboutme-text {
+  /* border: 1px solid #703c98; */
+  width: 40%;
+  height: 10em;
+  position: absolute;
+  top: 55%;
+  transform: translate(0, -50%);
+  right: 10%;
+  font-size: 120%;
+  color: #49454C;
+}
+
+
+/* ---------- tech stack ------------ */
+.stack {
+   /* border: 1px solid #703c98; */
+   width: 90%;
+   height: 5em;
+   margin: 0 auto;
+   margin-top: 5%;
+   display: flex;
+   justify-content: space-around;
+}
+
+
+
+/* --------- intro - end --------- */
+.intro-end {
+  /* border: 1px solid #703c98; */
+  width: 100%;
+  height: 20em;
+  margin-top: 10%;
+}
+
+#n-2 {
+  height: 20em;
+  width: 22em;
+  position: absolute;
+  left: 10%;
+}
+
+.end-white-box {
+  height: 20em;
+  width: 25em;
+  position: absolute;
+  left: 8.5%;
+  background-color: #ffff;
+  z-index: -1;
+}
+
+#l-2 {
+  top: 50%;
+  width: 100%;
+  transform: translate(0, -50%);
+  position: relative;
+  z-index: -2;
+}
+
+/* ----------------------------------- */
+/* ----------- Project --------------- */
+.project {
+  /* border: 1px solid #3c7f98; */
+  padding-bottom: 10rem;
+  width: 100%;
+  position: relative;
+  color: #49454C;
+}
+
+.project h1 {
+  font-size: 300%;
+  font-weight: 1000;
+  text-align: center;
+}
+
+.pj-container {
+   /* margin-top: 5%; */
+   /* border: 1px solid #3c7f98; */
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+
+.pj {
+  /* border: 1px solid #97c5d6; */
+  width: 60rem;
+  height: 30rem;
+  margin-top: 5%;
+}
+
+.pj img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* --------- Projects - end --------- */
+.pj-end {
+  /* border: 1px solid #703c98; */
+  width: 100%;
+  height: 20em;
+  margin-top: 10%;
+}
+
+#n-6 {
+  height: 20em;
+  width: 30em;
+  position: absolute;
+  right: 15%;
+}
+
+.pj-end-white-box{
+  height: 20em;
+  width: 35em;
+  position: absolute;
+  right: 12.5%;
+  background-color: #ffff;
+  z-index: -1;
+}
+
+#pj-l-2 {
+  top: 50%;
+  width: 100%;
+  transform: translate(0, -50%);
+  position: relative;
+  z-index: -2;
+}
+
