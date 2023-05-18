@@ -109,8 +109,14 @@
 
       <div class="aboutme">
         <div class="green-box"></div>
-        <img src="./img-portV2/N-7.png" alt="" id="n-7" />
-        <div class="white-box"></div>
+        
+        <div class="white-box">
+          <img src="./img-portV2/message-4.png" alt="" id="m-4" />
+          <img src="./img-portV2/message-3.png" alt="" id="m-3" />
+          <img src="./img-portV2/message-2.png" alt="" id="m-2" />
+          <img src="./img-portV2/message-1.png" alt="" id="m-1" />
+          <img src="./img-portV2/N-7.png" alt="" id="n-7" />
+        </div>
 
         <div class="aboutme-text">
           <h1>About Me</h1>
@@ -193,7 +199,7 @@
             <p>
               A responsive website showcasing an academy landing page and its
               programs, providing a seamless user experience across different
-              devices and screen sizes..
+              devices and screen sizes.
             </p>
             <p class="text-stack">HTML &nbsp;&nbsp;CSS</p>
             <img src="./img-portV2/l-5.png" alt="" />
@@ -301,23 +307,30 @@
         delay: 400,
       });
 
-      // ScrollReveal().reveal('.main-title', { delay: 500 });
-      // ScrollReveal().reveal('#star-1', { delay: 200 , origin: 'left' });
-      // ScrollReveal().reveal('#star-2', { delay: 200 , origin: 'right' });
-      // ScrollReveal().reveal('.stack img', { origin: 'bottom', interval: 200 });
-      // ScrollReveal().reveal('.overlay', { delay: 0 , origin: 'right' });
-      // ScrollReveal().reveal('.flex', { delay: 0 , origin: 'bottom' });
+      ScrollReveal().reveal('.main-title', { delay: 500 });
+      ScrollReveal().reveal('#star-1', { delay: 200 , origin: 'left' });
+      ScrollReveal().reveal('#star-2', { delay: 200 , origin: 'right' });
+      ScrollReveal().reveal('.stack img', { origin: 'bottom', interval: 200 });
+      ScrollReveal().reveal('.overlay', { delay: 0 , origin: 'right' });
+      ScrollReveal().reveal('.flex', { delay: 0 , origin: 'bottom' });
+      ScrollReveal().reveal('#m-1', { delay: -500 , origin: 'bottom' });
+      ScrollReveal().reveal('#m-2', { delay: -400 , origin: 'bottom' });
+      ScrollReveal().reveal('#m-3', { delay: -200 , origin: 'bottom' });
+      ScrollReveal().reveal('#m-4', { delay: -200 , origin: 'bottom' });
+      ScrollReveal().reveal('#flash-1', { delay: -200 , origin: 'right' });
+      ScrollReveal().reveal('#flash-2', { delay: -200 , origin: 'left' });
+      ScrollReveal().reveal('#note-1, #note-2, #note-3', { delay: -200 , origin: 'bottom' });
 
-      // document.addEventListener('mousemove', parallax);
-      // function parallax(e) {
-      //     document.querySelectorAll(".object").forEach(function(move){
+      document.addEventListener('mousemove', parallax);
+      function parallax(e) {
+          document.querySelectorAll(".object").forEach(function(move){
 
-      //         let moving_value = move.getAttribute('data-value');
-      //         let x = e.clientX * moving_value /250;
-      //         let y = e.clientY * moving_value /250;
+              let moving_value = move.getAttribute('data-value');
+              let x = e.clientX * moving_value /250;
+              let y = e.clientY * moving_value /250;
 
-      //         move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
-      //     });
+              move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
+          });
       }
 
     </script>
