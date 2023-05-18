@@ -109,7 +109,7 @@
 
       <div class="aboutme">
         <div class="green-box"></div>
-        <img src="./img-portV2/N-4.png" alt="" id="n-4" />
+        <img src="./img-portV2/N-7.png" alt="" id="n-7" />
         <div class="white-box"></div>
 
         <div class="aboutme-text">
@@ -301,23 +301,25 @@
         delay: 400,
       });
 
-      ScrollReveal().reveal('.main-title', { delay: 500 });
-      ScrollReveal().reveal('#star-1', { delay: 200 , origin: 'left' });
-      ScrollReveal().reveal('#star-2', { delay: 200 , origin: 'right' });
-      ScrollReveal().reveal('.stack img', { delay: 80 , origin: 'bottom', interval: 200 });
-      ScrollReveal().reveal('.overlay', { delay: 50 , origin: 'bottom' });
+      // ScrollReveal().reveal('.main-title', { delay: 500 });
+      // ScrollReveal().reveal('#star-1', { delay: 200 , origin: 'left' });
+      // ScrollReveal().reveal('#star-2', { delay: 200 , origin: 'right' });
+      // ScrollReveal().reveal('.stack img', { origin: 'bottom', interval: 200 });
+      // ScrollReveal().reveal('.overlay', { delay: 0 , origin: 'right' });
+      // ScrollReveal().reveal('.flex', { delay: 0 , origin: 'bottom' });
 
-      document.addEventListener('mousemove', parallax);
-      function parallax(e) {
-          document.querySelectorAll(".object").forEach(function(move){
+      // document.addEventListener('mousemove', parallax);
+      // function parallax(e) {
+      //     document.querySelectorAll(".object").forEach(function(move){
 
-              let moving_value = move.getAttribute('data-value');
-              let x = e.clientX * moving_value /250;
-              let y = e.clientY * moving_value /250;
+      //         let moving_value = move.getAttribute('data-value');
+      //         let x = e.clientX * moving_value /250;
+      //         let y = e.clientY * moving_value /250;
 
-              move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
-          });
+      //         move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
+      //     });
       }
+
     </script>
   </body>
 </html>
