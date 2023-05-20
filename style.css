@@ -235,7 +235,7 @@
   width: 40%;
   height: 10em;
   position: absolute;
-  top: 55%;
+  top: 50%;
   transform: translate(0, -50%);
   right: 10%;
   font-size: 120%;
@@ -362,7 +362,7 @@
   position: absolute;
 }
 
-#star-1 {
+/* #star-1 {
   width: 70%;
   height: 80%;
   top: 18px;
@@ -374,7 +374,21 @@
   height: 40%;
   bottom: 17px;
   right: 18px;
+} */
+
+.pj figure {
+  width: 80%;
+  height: 90%;
+  margin: 0 auto;
+  top: 5%;
+  position: relative;
+  /* border: 1px solid #7a277b; */
 }
+
+.pj figure img {
+  border-radius: 20px;
+}
+
 
 
 .text-stack {

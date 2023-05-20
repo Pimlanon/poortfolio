@@ -90,18 +90,18 @@
               <a href="">Gmail</a>
             </li>
             <li>
-              <a href=""
+              <a href="https://www.linkedin.com/in/nonlaphan-pim/" target="_blank"
                 ><img src="./img-portV2/Linkedin.png" alt="" id="linkedin"
               /></a>
               <br />
-              <a href="">Linkedin</a>
+              <a href="https://www.linkedin.com/in/nonlaphan-pim/" target="_blank">Linkedin</a>
             </li>
             <li>
-              <a href=""
+              <a href="https://github.com/Pimlanon" target="_blank"
                 ><img src="./img-portV2/Github.png" alt="" id="github"
               /></a>
               <br />
-              <a href="">Github</a>
+              <a href="https://github.com/Pimlanon" target="_blank">Github</a>
             </li>
           </ul>
         </div>
@@ -109,7 +109,7 @@
 
       <div class="aboutme">
         <div class="green-box"></div>
-        
+
         <div class="white-box">
           <img src="./img-portV2/message-4.png" alt="" id="m-4" />
           <img src="./img-portV2/message-3.png" alt="" id="m-3" />
@@ -121,9 +121,7 @@
         <div class="aboutme-text">
           <h1>About Me</h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, ipsum
-            facere. Blanditiis pariatur similique beatae dolore voluptatem ab a
-            excepturi et atque vero libero quam ipsa corporis, est in debitis.
+            A highly motivated Japanese-speaking software developer experienced in full-stack development using the MERN stack. Adaptable to agile methodologies, delivering efficient and user-friendly web applications. Passionate about continuous learning and problem-solving to create innovative software solutions.
           </p>
         </div>
       </div>
@@ -189,8 +187,9 @@
           <div class="pj">
             <img src="./img-portV2/L-4.png" alt="" />
             <figure>
-              <img src="./img-portV2/caolmar-1.png" alt="" id="star-1" />
-              <img src="./img-portV2/colmar-2.png" alt="" id="star-2" />
+              <!-- <img src="./img-portV2/caolmar-1.png" alt="" id="star-1" />
+              <img src="./img-portV2/colmar-2.png" alt="" id="star-2" /> -->
+              <img src="./img-portV2/colmar.gif" alt="">
             </figure>
           </div>
           <div class="overlay">
@@ -224,8 +223,7 @@
           <div class="pj">
             <img src="./img-portV2/L-4.png" alt="" />
             <figure>
-              <img src="./img-portV2/star-1.png" alt="" id="star-1" />
-              <img src="./img-portV2/star-2.png" alt="" id="star-2" />
+              <img src="./img-portV2/star.gif" alt="" id="stargif">
             </figure>
           </div>
           <div class="overlay">
@@ -245,10 +243,11 @@
                 <a class="flex-text" href="">repo</a>
               </div>
               <div class="flex">
-                <a href=""><img src="./img-portV2/demo.png" alt="" /></a>
+                <a href="https://replit.com/@NonlaphanPimsom/JSD4Find-That-Star" target="_blank"><img src="./img-portV2/demo.png" alt="" /></a>
                 <a
                   class="flex-text"
-                  href="https://replit.com/@NonlaphanPimsom/Find-My-Hat#index.js"
+                  href="https://replit.com/@NonlaphanPimsom/JSD4Find-That-Star"
+                  target="_blank"
                   >demo</a
                 >
               </div>
@@ -276,10 +275,11 @@
                 <a class="flex-text" href="">repo</a>
               </div>
               <div class="flex">
-                <a href=""><img src="./img-portV2/demo.png" alt="" /></a>
+                <a href="https://www.Youtube.com/"><img src="./img-portV2/demo.png" alt=""/></a>
                 <a
                   class="flex-text"
                   href="https://replit.com/@NonlaphanPimsom/Find-My-Hat#index.js"
+                  target="_blank"
                   >demo</a
                 >
               </div>
@@ -308,8 +308,8 @@
       });
 
       ScrollReveal().reveal('.main-title', { delay: 500 });
-      ScrollReveal().reveal('#star-1', { delay: 200 , origin: 'left' });
-      ScrollReveal().reveal('#star-2', { delay: 200 , origin: 'right' });
+      ScrollReveal().reveal('.aboutme-text', { delay: 200 , origin: 'right'});
+      ScrollReveal().reveal('.pj figure img', { delay: 200 , origin: 'left' });
       ScrollReveal().reveal('.stack img', { origin: 'bottom', interval: 200 });
       ScrollReveal().reveal('.overlay', { delay: 0 , origin: 'right' });
       ScrollReveal().reveal('.flex', { delay: 0 , origin: 'bottom' });
@@ -332,7 +332,6 @@
               move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
           });
       }
-
     </script>
   </body>
 </html>
