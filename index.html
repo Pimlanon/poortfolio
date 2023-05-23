@@ -6,23 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+    ></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <title>Portfolio-Nonlaphan</title>
   </head>
   <body>
-
-    <section class="allContainer">
-      <div class="allContainer-text">My Portfolio</div>
-      <button class="allContainer-btn">Explore</button>
-
-    </section>
-
-
-
-
-
-
     <nav>
       <div class="nav1">
         <img
@@ -32,10 +23,17 @@
           onclick="topFunction()"
         />
       </div>
-      <div class="nav2"></div>
+      <div class="nav2">
+        <a href="#goProjetcs">Projects</a>
+        <a href="#goContact">Contact</a>
+      </div>
       <div class="nav3">
-        <a href=""><img src="./img-portV2/CV.png" alt="" /></a>
-        <a href=""
+        <a
+          href="https://drive.google.com/file/d/1UETnYLjrDu_NzSAjIwx1EqHkqCAJ72ya/view?usp=sharing"
+          target="_blank"
+          ><img src="./img-portV2/CV.png" alt=""
+        /></a>
+        <a href="mailto:nonlaphan.pim@gmail.com" target="_blank"
           ><img src="./img-portV2/Gmail.png" alt="" id="nav-gmail"
         /></a>
         <a href="https://www.linkedin.com/in/nonlaphan-pim/" target="_blank"
@@ -50,6 +48,8 @@
     <section class="intro" id="firstsection">
       <div class="firsicontainer">
         <div class="c-container">
+          <div class="me-bg"></div>
+          <div class="me"></div>
           <img
             src="./img-portV2/C-0.png"
             alt=""
@@ -122,16 +122,31 @@
         <div class="link">
           <ul>
             <li>
-              <a href=""><img src="./img-portV2/CV.png" alt="" id="cv" /></a>
+              <a
+                href="https://drive.google.com/file/d/1UETnYLjrDu_NzSAjIwx1EqHkqCAJ72ya/view?usp=sharing"
+                target="_blank"
+                ><img src="./img-portV2/CV.png" alt="" id="cv"
+              /></a>
               <br />
-              <a href="" class="line-link">CV</a>
+              <a
+                href="https://drive.google.com/file/d/1UETnYLjrDu_NzSAjIwx1EqHkqCAJ72ya/view?usp=sharing"
+                target="_blank"
+                class="line-link"
+                >CV</a
+              >
             </li>
             <li>
-              <a href=""
+              <a href="mailto:nonlaphan.pim@gmail.com" target="_blank"
                 ><img src="./img-portV2/Gmail.png" alt="" id="gmail"
               /></a>
               <br />
-              <a href="" class="line-link"> Gmail</a>
+              <a
+                href="mailto:nonlaphan.pim@gmail.com"
+                target="_blank"
+                class="line-link"
+              >
+                Gmail</a
+              >
             </li>
             <li>
               <a
@@ -208,7 +223,7 @@
       </div>
     </section>
 
-    <section class="project">
+    <section class="project" id="goProjetcs">
       <h1 class="main-title">Projects</h1>
 
       <div class="pj-container">
@@ -219,12 +234,16 @@
           </div>
           <div class="overlay">
             <h2>Orange Cat</h2>
+            <p><b>Final ProJect of Generation Boot Camp</b></p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-              esse rem officiis sequi voluptatibus magnam reprehenderit sit,
-              beatae eligendi, at repellat fugiat numquam perspiciatis,
-              quibusdam labore repellendus aliquid quia doloribus!
+              Created "Orange Cat", a engaging and interactive exercise tracker with
+              a comprehensive ranking system, incorporating BMI calculations to
+              encourage fitness goals and enhance user engagement.
             </p>
+            <p class="text-stack">React
+              Express
+              MongoDB
+              Node.js</p>
             <img src="./img-portV2/l-5.png" alt="" />
             <div class="link-path">
               <div class="flex">
@@ -313,8 +332,8 @@
             <img src="./img-portV2/l-5.png" alt="" />
             <div class="link-path">
               <div class="flex">
-                <a href=""><img src="./img-portV2/code.png" alt="" /></a>
-                <a class="flex-text" href="">repo</a>
+                <a href="https://github.com/Pimlanon/JSD4-find-that-star" target="_blank"><img src="./img-portV2/code.png" alt="" /></a>
+                <a class="flex-text" href="https://github.com/Pimlanon/JSD4-find-that-star" target="_blank">repo</a>
               </div>
               <div class="flex">
                 <a
@@ -333,32 +352,46 @@
           </div>
         </div>
 
+        <img src="./img-portV2/plane-2.png" alt="" id="plane-2" />
+
         <div class="pj-insicdecontainer">
           <div class="pj">
             <img src="./img-portV2/L-4.png" alt="" />
-            <img src="./img-portV2/N-5.png" alt="" class="insideImg" />
+            <figure>
+              <img src="./img-portV2/myalbum.gif" alt="" id="myalbum" />
+            </figure>
           </div>
           <div class="overlay">
-            <h2>Sample Test</h2>
+            <h2>My Album</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-              esse rem officiis sequi voluptatibus magnam reprehenderit sit,
-              beatae eligendi, at repellat fugiat numquam perspiciatis,
-              quibusdam labore repellendus aliquid quia doloribus!
+              'My Album' is a static website that serves as a platform to
+              exhibit my collection of photos captured during my time in Japan.
+              It also offers the flexibility of a dark mode
+              feature, enhancing the viewing experience.
             </p>
+            <p class="text-stack">HTML &nbsp;&nbsp;CSS &nbsp;&nbsp;JS</p>
             <img src="./img-portV2/l-5.png" alt="" />
             <div class="link-path">
               <div class="flex">
-                <a href=""><img src="./img-portV2/code.png" alt="" /></a>
-                <a class="flex-text" href="">repo</a>
+                <a
+                  href="https://github.com/Pimlanon/projecy-my-album"
+                  target="_blank"
+                  ><img src="./img-portV2/code.png" alt=""
+                /></a>
+                <a
+                  class="flex-text"
+                  href="https://github.com/Pimlanon/projecy-my-album"
+                  target="_blank"
+                  >repo</a
+                >
               </div>
               <div class="flex">
-                <a href="https://www.Youtube.com/"
+                <a href="https://project-my-album.vercel.app/" target="_blank"
                   ><img src="./img-portV2/demo.png" alt=""
                 /></a>
                 <a
                   class="flex-text"
-                  href="https://replit.com/@NonlaphanPimsom/Find-My-Hat#index.js"
+                  href="https://project-my-album.vercel.app/"
                   target="_blank"
                   >demo</a
                 >
@@ -379,20 +412,29 @@
       </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="goContact">
       <h1 class="main-title">Contact Me</h1>
       <div class="contact-container">
         <div class="contact-subcon1">
-          <img src="./img-portV2/N-5.png" alt="" />
+          <img src="./img-portV2/N-5.png" alt="" class="contact-img" />
         </div>
-        <div class="contact-subcon2"></div>
+        <form
+          class="contact-subcon2"
+          action="https://formspree.io/f/xoqzzeel"
+          method="POST"
+        >
+          <label for="name" class="label-contact">Name</label>
+          <input type="text" name="name" id="" class="space-contact" />
+          <label for="email" class="label-contact">Email</label>
+          <input type="email" name="email" id="" class="space-contact" />
+          <label for="message" class="label-contact">Message</label>
+          <textarea name="message" id="" cols="30" rows="10"></textarea>
+
+          <button type="submit">submit</button>
+        </form>
       </div>
     </section>
 
-    <script src="./script.js">
-      
-
-      
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
