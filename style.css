@@ -485,7 +485,6 @@
    flex-wrap: wrap;
    justify-content: center;
    align-items: start;
-  border: 2px solid;
 }
 
 .pj-insicdecontainer {
@@ -525,6 +524,11 @@
 .text-stack {
   font-size: 130%;
   font-weight: 600;
+  text-align: center;
+}
+
+#text-stackID {
+  font-size: 110%;
 }
 
 .insideImg {
