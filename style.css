@@ -792,6 +792,15 @@ textarea:focus, input:focus{
   left: 0;
 }
 
+
+
+@media screen and (max-width: 1350px) {
+  .aboutme-text {
+    left: 70%;
+  }
+}
+
+
 @media screen and (max-width: 992px) {
 
   .aboutme {
