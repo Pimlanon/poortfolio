@@ -16,12 +16,14 @@
   <body>
     <nav>
       <div class="nav1">
-        <img
-          src="./img-portV2/logo.png"
-          alt=""
-          id="gotop"
-          onclick="topFunction()"
-        />
+        <a href="">
+          <img
+            src="./img-portV2/logo.png"
+            alt=""
+            id="gotop"
+            onclick="topFunction()"
+          />
+        </a>
       </div>
       <div class="nav2">
         <a href="#goProjetcs">Projects</a>
@@ -179,17 +181,8 @@
       </div>
 
       <div class="aboutme">
-        <div class="green-box"></div>
-
-        <div class="white-box">
-          <img src="./img-portV2/message-4.png" alt="" id="m-4" />
-          <img src="./img-portV2/message-3.png" alt="" id="m-3" />
-          <img src="./img-portV2/message-2.png" alt="" id="m-2" />
-          <img src="./img-portV2/message-1.png" alt="" id="m-1" />
-          <img src="./img-portV2/n-9.png" alt="" id="n-7" />
-        </div>
-
-        <div class="aboutme-text">
+        <div class="green-box">
+           <div class="aboutme-text">
           <h1>About Me</h1>
           <p>
             A highly motivated Japanese-speaking software developer experienced
@@ -199,6 +192,17 @@
             problem-solving to create innovative software solutions.
           </p>
         </div>
+        </div>
+
+        <div class="white-box">
+          <img src="./img-portV2/message-4.png" alt="" id="m-4" />
+          <img src="./img-portV2/message-3.png" alt="" id="m-3" />
+          <img src="./img-portV2/message-2.png" alt="" id="m-2" />
+          <img src="./img-portV2/message-1.png" alt="" id="m-1" />
+          <img src="./img-portV2/n-9.png" alt="" id="n-7" />
+        </div>
+
+       
       </div>
 
       <div class="stack">
@@ -448,9 +452,9 @@
           <label for="email" class="label-contact">Email</label>
           <input type="email" name="email" id="" class="space-contact" />
           <label for="message" class="label-contact">Message</label>
-          <textarea name="message" id="" cols="30" rows="10"></textarea>
+          <textarea name="message" id="" cols="30" rows="10" class="textarea-contact"></textarea>
 
-          <button type="submit">submit</button>
+          <button type="submit" class="btn-contact">submit</button>
         </form>
       </div>
     </section>
