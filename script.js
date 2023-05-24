@@ -7,7 +7,7 @@ ScrollReveal({
   });
 
   ScrollReveal().reveal('.main-title', { delay: 500 });
-  ScrollReveal().reveal('.aboutme-text', { delay: 200 , origin: 'right'});
+  // ScrollReveal().reveal('.aboutme-text', { delay: 200 , origin: 'right'});
   ScrollReveal().reveal('.pj figure img', { delay: 200 , origin: 'left' });
   ScrollReveal().reveal('.link', { delay: 200 , origin: 'right' });
   ScrollReveal().reveal('.stack img', { origin: 'bottom', interval: 200 });
@@ -20,8 +20,8 @@ ScrollReveal({
   ScrollReveal().reveal('#flash-1', { delay: -200 , origin: 'right' });
   ScrollReveal().reveal('#flash-2', { delay: -200 , origin: 'left' });
   ScrollReveal().reveal('#note-1, #note-2, #note-3', { delay: -200 , origin: 'bottom' });
-  ScrollReveal().reveal('.contact-img', { delay: 300 , origin: 'left' });
-  ScrollReveal().reveal('.contact-subcon2', { delay: 300 , origin: 'right' });
+  // ScrollReveal().reveal('.contact-img', { delay: 300 , origin: 'left' });
+  // ScrollReveal().reveal('.contact-subcon2', { delay: 300 , origin: 'right' });
 
 
   // --------------------- paralax --------------------

@@ -353,6 +353,7 @@
   left: 13%;
   background-color: #ffffff;
   z-index: -1;
+  /* border: 1px solid #703c98; */
 }
 
 .green-box {
@@ -363,15 +364,17 @@
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
+  /* border: 1px solid #703c98; */
 }
 
 .aboutme-text {
   /* border: 1px solid #703c98; */
   width: 40%;
-  height: 10em;
+  height: 11em;
   position: absolute;
   font-size: 120%;
   color: #49454C;
+  display: inline;
   top: 50%;
   left: 65%;
   transform: translate(-50%, -50%);
@@ -824,7 +827,7 @@ textarea:focus, input:focus{
 
   #plane-2 {
     top: 73%;
-    left: 10%;
+    left: 5%;
   }
 
 }
