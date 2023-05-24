@@ -554,13 +554,14 @@
   text-align: left;
   margin-top: 10px;
   font-size: 180%;
+  display: inline;
 }
 
 .overlay p {
   margin-top: 10px;
   text-align: justify;
   width: 16rem;
-  
+  display: inline-block;
 }
 
 .overlay img {
@@ -803,8 +804,8 @@ textarea:focus, input:focus{
     position: absolute;
     font-size: 120%;
     color: #49454C;
-    top: 50%;
-    left: 70%;
+    top: 45%;
+    left: 75%;
     transform: translate(-50%, -50%);
   }
 
