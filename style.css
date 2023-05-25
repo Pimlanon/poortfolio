@@ -262,7 +262,7 @@
     height: 6em;
     position: relative;
     margin-top: -9%;
-    left: 49%;
+    left: 48%;
   }
 
   .link ul {
@@ -458,16 +458,6 @@
 /* ----------------------------------- */
 /* ----------- Project --------------- */
 
-#plane-1 {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  top: 22%;
-  left: 55%;
-  z-index: 50;
-  display: flex;
-}
-
 
 .project {
   /* border: 1px solid #c8e1ea; */
@@ -549,7 +539,7 @@
   /* border: 1px solid #277b34; */
   position: relative;
   right: 0;
-  width: 20rem;
+  width: 22rem;
   height: 21rem;
   margin-left: 5%;
   text-align: left;
@@ -565,8 +555,9 @@
 .overlay p {
   margin-top: 10px;
   text-align: justify;
-  width: 16rem;
+  width: 18rem;
   display: inline-block;
+  line-height: 25px;
 }
 
 .overlay img {
@@ -620,13 +611,22 @@
   height: 40px;
 }
 
+#plane-1 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 22%;
+  left: 55%;
+  z-index: 50;
+  display: flex;
+}
 
 #plane-2 {
   width: 150px;
   height: 150px;
   position: absolute;
   top: 72%;
-  left: 17%;
+  left: 8%;
   z-index: 50;
   display: flex;
 }
@@ -794,9 +794,30 @@ textarea:focus, input:focus{
   left: 0;
 }
 
+/* ---------------------- */
+@media screen and (max-width: 1245px) {
+
+  .aboutme-text {
+    width: 40%;
+    height: 12em;
+    position: absolute;
+    font-size: 115%;
+    color: #49454C;
+    top: 45%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
 
 
 @media screen and (max-width: 992px) {
+
+  .link {
+    left: 48%;
+    width: 38em;
+  }
 
   .aboutme {
     width: 100%;
@@ -812,7 +833,7 @@ textarea:focus, input:focus{
     font-size: 120%;
     color: #49454C;
     top: 45%;
-    left: 75%;
+    left: 72%;
     transform: translate(-50%, -50%);
   }
 
@@ -832,6 +853,10 @@ textarea:focus, input:focus{
   #plane-2 {
     top: 73%;
     left: 5%;
+  }
+
+  .overlay h2 {
+    font-size: 170%;
   }
 
 }
@@ -864,6 +889,10 @@ textarea:focus, input:focus{
     margin-top: 10%;
   }
 
+  .aboutme-text {
+    top: 50%;
+  }
+
   /* --------------- */
 
   .project {
@@ -887,24 +916,24 @@ textarea:focus, input:focus{
 
   .overlay {
     top: 2rem;
-    left: 28%;
-    width: 30rem;
+    left: 20%;
+    width: 40rem;
     height: auto;
     margin-bottom: 4rem;
   }
 
   .overlay p {
-    width: 90%;
+    width: 95%;
   }
 
   #plane-1 {
     top: 15%;
-    left: 70%;
+    left: 75%;
   }
 
   #plane-2 {
     top: 70%;
-    left: 15%;
+    left: 10%;
   }
 
   .pj-end {
@@ -922,16 +951,20 @@ textarea:focus, input:focus{
 
   .contact-subcon1 {
     margin: 0 auto;
+    width: 60%;
+    height: 50%;
   }
 
   .contact-subcon2 {
     padding-top: 1rem;
     padding-bottom: 5rem;
     margin: 0 auto;
+    width: 60%;
   }
 
   .contact-subcon2 input{
     width: 100%;
+    padding: 6.5px;
   }
 
   .contact-subcon2 textarea  {
