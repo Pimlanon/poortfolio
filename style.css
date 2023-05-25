@@ -815,8 +815,8 @@ textarea:focus, input:focus{
 @media screen and (max-width: 992px) {
 
   .link {
-    left: 48%;
-    width: 38em;
+    left: 52%;
+    width: 33em;
   }
 
   .aboutme {
