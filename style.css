@@ -30,7 +30,7 @@
   }
 
   .nav1 {
-    width: 20%;
+    width: 80px;
     height:120%;
     margin-left: 20px;
     /* border: 1px solid #ffff; */
@@ -42,11 +42,12 @@
 
   .nav1 img {
     height: 100%;
+    width: 100%;
     cursor: pointer;
   }
 
   .nav2 {
-    width: 25%;
+    width: 25rem;
     height:100%;
     /* border: 1px solid #ffff; */
     display: flex;
@@ -461,7 +462,7 @@
 
 .project {
   /* border: 1px solid #c8e1ea; */
-  padding-bottom: 15rem;
+  padding-bottom: 10rem;
   width: 100%;
   position: relative;
   color: #49454C;
@@ -637,7 +638,7 @@
   /* border: 1px solid #703c98; */
   width: 100%;
   height: 20em;
-  margin-top: 10%;
+  margin-top: 0%;
 }
 
 #n-6 {
@@ -752,6 +753,8 @@
   border: 1.5px solid #49454C;
   font-family: 'Short Stack', cursive;
   font-size: large;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .contact-subcon2 textarea {
@@ -763,10 +766,20 @@
   font-family: 'Short Stack', cursive;
   font-size: large;
   line-height: 25px;
+  padding: 10px;
 }
 
 textarea:focus, input:focus{
   outline: none;
+}
+
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #49454C;
+  border-radius: 12px;
 }
 
 .space-contact {
@@ -808,6 +821,15 @@ textarea:focus, input:focus{
     transform: translate(-50%, -50%);
   }
 
+  #plane-2 {
+    top: 73%;
+    left: 5%;
+  }
+
+  .link {
+    left: 54%;
+    width: 33em;
+  }
 }
 
 
@@ -881,7 +903,7 @@ textarea:focus, input:focus{
   .link {
    position: absolute;
    bottom: 0;
-   left: 25%;
+   left: 28%;
   }
 
   /* --------------- */
@@ -897,6 +919,7 @@ textarea:focus, input:focus{
 
   .project {
     padding-bottom: 15%;
+    padding-bottom: 5rem;
   }
 
   .pj-container {
@@ -912,6 +935,7 @@ textarea:focus, input:focus{
   .pj {
     margin: 0 auto;
     position: relative;
+    margin-bottom: 0.5rem;
   }
 
   .overlay {
@@ -919,7 +943,7 @@ textarea:focus, input:focus{
     left: 20%;
     width: 40rem;
     height: auto;
-    margin-bottom: 4rem;
+    margin-bottom: 7rem;
   }
 
   .overlay p {
@@ -942,6 +966,7 @@ textarea:focus, input:focus{
 
   .contact {
     padding-bottom: 65rem;
+    margin-top: 0;
   }
 
   .contact-container {

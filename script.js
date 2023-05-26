@@ -8,7 +8,7 @@ if (windowWidth >= 600) {
     delay: 400,
   });
 
-ScrollReveal().reveal(".main-title", { delay: 500 });
+ScrollReveal().reveal(".main-title", { delay: 300 });
 // ScrollReveal().reveal('.aboutme-text', { delay: 200 , origin: 'right'});
 ScrollReveal().reveal(".pj figure img", { delay: 200, origin: "left" });
 ScrollReveal().reveal(".link", { delay: 200, origin: "right" });
