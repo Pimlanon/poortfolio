@@ -15,6 +15,8 @@ ScrollReveal().reveal(".link", { delay: 200, origin: "right" });
 ScrollReveal().reveal(".stack img", { origin: "bottom", interval: 200 });
 ScrollReveal().reveal(".overlay", { delay: 0, origin: "right" });
 ScrollReveal().reveal(".flex", { delay: 0, origin: "bottom" });
+ScrollReveal().reveal(".flex-fb", { delay: 0, origin: "bottom" });
+ScrollReveal().reveal(".flex-sp", { delay: 0, origin: "bottom" });
 ScrollReveal().reveal("#m-1", { delay: -500, origin: "bottom" });
 ScrollReveal().reveal("#m-2", { delay: -400, origin: "bottom" });
 ScrollReveal().reveal("#m-3", { delay: -200, origin: "bottom" });
